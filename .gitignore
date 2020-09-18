@@ -10,7 +10,7 @@
 [Ss]cripts
 pyvenv.cfg
 .venv
-.ipynb_checkpoints/
+.ipynb_checkpoints
 pip-selfcheck.json
 geckodriver.log
 .idea/
