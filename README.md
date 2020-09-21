@@ -3,9 +3,9 @@
 - Type of Challenge: `Consolidation`
 - Duration: `3 days : Thu,Fri,Mon from 17/09/2020 to 21/09/2020`
 - Team challenge : 3
-    |   |   |   |
+    |  [Michaël](http://https://github.com/mpietquin "Michaël")|[Jean-Christophe](https://github.com/jcmeunier77 "Jean-Christophe") |[Maxime](https://github.com/MDropsy "Maxime") |
     | :------------: | :------------: | :------------: |
-    | [Mickaël](http://https://github.com/mpietquin "Mickaël") | [Jean-Christophe](https://github.com/jcmeunier77 "Jean-Christophe") | [Maxime](https://github.com/MDropsy "Maxime") |
+    
 ## Mission objectives 
 - Be able to use pandas
 - Be able to use Data visualisation libraries.(Matplotlib and/or Seaborn)
@@ -14,22 +14,47 @@
 The real estate company "ImmoEliza" wants you to create a machine learning model to predict prices on Belgium's sales.
 
 **Step 1 : Data Cleaning**
-    We had to discuss and analyse datas to see which ones we had to keep and wich ones to remove.
-    For exemple as the price is our target , we get rid of scrapped house/appartment where the price wasn't mentionned.
-- The previously scrapped datas from Immoweb.be :  
-    ##### Before cleaning :
-    - [csv file](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Final_dataset_house_apartment.csv?token=AOY7FALZF3F5HEK3T3FN3527MSXAU")
-    ##### After cleaning :
-    - [cleaned csv file](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/filtered_dataset_house_appartment.csv?token=AOY7FAJ744R6OBO5HT3HEM27MSW7G "cleaned csv file")
     
+We had to discuss and analyse datas to see which ones we had to keep and wich ones to remove.
+###### There was 3 impractical columns : 
+
+- furnished : as it's only for sales houses and apartments this column was most completely left blank.
+- type of sale : we had only notarial sale and already removed the ones selling for an annuity from the scrapping phase.
+- surface of the plot land : as we already had surface of the land complete.
+
+
+##### The previously scrapped datas from Immoweb.be :  
+    
+##### Before cleaning :
+
+- [csv file](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/Final_dataset_house_apartment.csv") : 50 842 entries
+    
+    ##### After cleaning :
+    
+- [cleaned csv file](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/DEF_IMMO.csv "cleaned csv file")  : 42 351 entries
+
 **Step 2 : Data Analysis**
 
+- As "ImmoEliza" wants us to create a machine learning model to predit the price , the Price variable will be our target.
+- ##### How many rows and columns ?
+    Once the dataset have been cleaned , we had  17 columns left and 42 353 rows
+- ##### Percentage of missing values :
+    
+    We only put the columns where values were missing.
+    
+| number_of_facades  |  house_area | surface_of_the_land  | garden_area  | terrace_area  | state_of_the_building|construction_year |
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | 
+| 12.8% Houses and 39.6% Appartments  | 0.3%  |  0.6% Houses |  41.1% | 37%| 24.2% |38.3% |
+
+- ##### Correlation :
+    - Houses :
+        
+        GRAPH HOUSE CORRE
+    - Appartments :
+        
+        GRAPH APPART CORRE
+- ##### Qualitative and quantitative variables :
+ 
+    We had X quantitative variables and Y qualitative variables after cleaning. 
+
 **Step 3 : Data Interpretation**
-
-
-## Quotes
-“The lottery is a tax on people who don't understand the statistics.”
-*- Anonymous*
-
-
-![You've got this!](https://media.giphy.com/media/JrXas5ecb4FkwbFpIE/giphy.gif)
