@@ -15,7 +15,7 @@ The real estate company "ImmoEliza" wants you to create a machine learning model
 
 **Step 1 : Data Cleaning**
     
-We had to discuss and analyse datas to see which ones we had to keep and wich ones to remove.
+We had to discuss and analyse datas to see which ones we had to keep and which ones to remove.
 Our steps can be seen in this file : [A._Data_exploration_and_cleaning](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/A._Data_exploration_and_cleaning.ipynb "A._Data_exploration_and_cleaning")
 ###### There were 3 impractical columns : 
 
