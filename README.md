@@ -42,7 +42,7 @@ Our steps can be seen in this file : [A._Data_exploration_and_cleaning](https://
     We had 11 quantitative variables and 6 qualitative variables left. 
 
 - ##### Qualitative and quantitative variables :
-    In the File B  we handeled the transformation of the qualitative variables into quantitatives ones by grouping them and making new ones when it was essential.
+    In the File B  we handeled the transformation of the quantitative variables into qualitative ones and vice versa by grouping them and making new ones when it was essential.
     - [B._Creation_of_new_variables](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/B._Creation_of_new_variables.ipynb "B._Creation_of_new_variables")
 - ##### [C. Descriptive : sample description](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/C._Descriptive_Sample_description.ipynb "C. Descriptive : sample description")
     After the cleaning phase of the project, the number of missing data ranged from 0 (for ex. For the price/target) to 34,488 (for the garden area variable). 
