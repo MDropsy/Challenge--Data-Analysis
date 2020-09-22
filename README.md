@@ -99,7 +99,7 @@ Similarly, the relation area-price was seen to be higher for the apartment as fo
 
     Finally, a 3D scatter plot was graphed showing the combined relation of the house area and the surface of the land with the houses price. ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/3D_regression.png?token=AOY7FAN7775PX5YLFNKXGHS7NHZ2W)
     
-Do not hesiste to check each notebook, ask us questions and giving us your tips and tricks ! 
+Do not hesitate to check each notebook, ask us questions and giving us your tips and tricks ! 
     
     Thank you for your reading , 
     Jean-Christophe, Michaël, Maxime 
