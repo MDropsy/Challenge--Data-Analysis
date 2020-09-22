@@ -75,10 +75,10 @@ Similar analyses were conducted separately for the houses and the apartments and
     - You can found the correlation between all variables in this file : [E. Correlation](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/E.%20Correlation%20variables-target%20and%20variables-variables.ipynb "E. Correlation")
     - Houses :
         
-    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_house_cleaned.jpg?token=AOY7FALETLGEGWAI6CQRCR27NH2LM)
+    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_house_cleaned.jpg)
     - Appartments :
         
-    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_appart_cleaned.jpg?token=AOY7FAJKMY7Z7AKZDCDJASC7NH2LO)
+    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_appart_cleaned.jpg)
 
  
 
@@ -94,7 +94,7 @@ And here is the exemple graph we obtain for the different provinces :
 
 - #### [F. Regression analyses example](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/F.%20Regression%20analyses%20example.ipynb "F. Regression analyses example")
     Although, more advanced analyses fell beyond the scope of this project, several scatter plot were graphed along with regression lines (materializing the relationships between two considered variables) differentiated by a third categorical variables. 
-For example, the relation between the house area and the price is different for the three considered regions and in particular for the Region Bruxelles-capital where the association area-price is stronger for this region as compared to the two others. ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/Regression_price_region.PNG?token=AOY7FAJBKGMW7CCNQYFQGLC7NHZPY)
+For example, the relation between the house area and the price is different for the three considered regions and in particular for the Region Bruxelles-capital where the association area-price is stronger for this region as compared to the two others. ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/Regression_price_region.PNG)
 Similarly, the relation area-price was seen to be higher for the apartment as for the houses. 
 
     Finally, a 3D scatter plot was graphed showing the combined relation of the house area and the surface of the land with the houses price. ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/3D_regression.png?token=AOY7FAN7775PX5YLFNKXGHS7NHZ2W)
