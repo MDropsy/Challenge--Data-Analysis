@@ -75,10 +75,10 @@ Similar analyses were conducted separately for the houses and the apartments and
     - You can found the correlation between all variables in this file : [E. Correlation](https://github.com/MDropsy/Challenge--Data-Analysis/blob/master/E.%20Correlation%20variables-target%20and%20variables-variables.ipynb "E. Correlation")
     - Houses :
         
-    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_house_cleaned.jpg?token=AOY7FANSRANRLJWOMITETKK7NHOCQ)
+    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_house_cleaned.jpg?token=AOY7FALETLGEGWAI6CQRCR27NH2LM)
     - Appartments :
         
-    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_appart_cleaned.jpg?token=AOY7FAJI2GY6OXUHXM372PS7NHOHK)
+    ![](https://raw.githubusercontent.com/MDropsy/Challenge--Data-Analysis/master/Images/graph_corre_appart_cleaned.jpg?token=AOY7FAJKMY7Z7AKZDCDJASC7NH2LO)
 
  
 
